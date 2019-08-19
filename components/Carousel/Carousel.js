@@ -27,16 +27,16 @@ function Carousel() {
   let leftButton = document.createElement("button");
   leftButton.classList.add("left-button");
 
-  let mountainImg = documtent.createElement("img");
+  let mountainImg = document.createElement("img");
   mountainImg.src = "./assets/carousel/mountains.jpeg";
 
-  let computerImg = documtent.createElement("img");
+  let computerImg = document.createElement("img");
   computerImg.src = "./assets/carousel/computer.jpeg";
 
-  let treesImg = documtent.createElement("img");
+  let treesImg = document.createElement("img");
   treesImg.src = "./assets/carousel/trees.jpeg";
 
-  let turntableImg = documtent.createElement("img");
+  let turntableImg = document.createElement("img");
   turntableImg.src = "./assets/carousel/turntable.jpeg";
 
   carousel.appendChild(leftButton);
